@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R09FECKL0E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-R09FECKL0E');
+  </script>
+
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- Meta Description for SEO -->
+  <meta name="description" content="わり算の筆算をわかりやすく学べるツールです。計算過程を順番に見せ、繰り上がりも分かりやすく表示。自分のペースで学べるインタラクティブな学習ツールです。">
+
+  <!-- Meta Keywords for SEO (optional but sometimes useful) -->
+  <meta name="keywords" content="わり算, 筆算, 学習ツール, 小学生, 算数, 計算">
+
+  <!-- Open Graph Meta Tags for better social media sharing -->
+  <meta property="og:title" content="わり算学習ツール - わかりやすい筆算の掛け算学習">
+  <meta property="og:description" content="わり算の筆算をわかりやすく学べるツールです。計算過程を順番に見せ、繰り上がりも分かりやすく表示。自分のペースで学べるインタラクティブな学習ツールです。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kakezan.sukerou.com/">
+  <meta property="og:image" content="https://kakezan.sukerou.com/og-image.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="webtools">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>webtools</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "2186106449";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+
+<body>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
